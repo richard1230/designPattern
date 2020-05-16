@@ -1,0 +1,17 @@
+.idea/
+.gradle/
+build/
+out/
+target/
+*.iml
+.DS_Store
+*.iws
+*.ipr
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
