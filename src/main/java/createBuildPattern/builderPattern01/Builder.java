@@ -1,4 +1,4 @@
-package createBuildPattern.builderPattern;
+package createBuildPattern.builderPattern01;
 
 public interface Builder {
     void setType(Type type);

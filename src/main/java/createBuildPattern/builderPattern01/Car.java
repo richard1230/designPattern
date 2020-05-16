@@ -1,4 +1,4 @@
-package createBuildPattern.builderPattern;
+package createBuildPattern.builderPattern01;
 
 /**
  * Car is a product class.

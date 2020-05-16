@@ -1,4 +1,4 @@
-package createBuildPattern.builderPattern;
+package createBuildPattern.builderPattern01;
 
 /**
  * Unlike other creational patterns, Builder can construct unrelated products,

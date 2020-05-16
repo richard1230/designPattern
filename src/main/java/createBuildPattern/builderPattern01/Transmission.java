@@ -1,4 +1,4 @@
-package createBuildPattern.builderPattern;
+package createBuildPattern.builderPattern01;
 
 /**
  * Just another feature of a car.

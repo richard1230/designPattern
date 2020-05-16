@@ -1,4 +1,4 @@
-package createBuildPattern.builderPattern;
+package createBuildPattern.builderPattern01;
 
 /**
  * Demo class. Everything comes together here.

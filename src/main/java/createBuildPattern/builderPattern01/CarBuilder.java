@@ -1,4 +1,4 @@
-package createBuildPattern.builderPattern;
+package createBuildPattern.builderPattern01;
 
 /**
  * Concrete builders implement steps defined in the common interface.
