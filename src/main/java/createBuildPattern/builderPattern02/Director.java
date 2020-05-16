@@ -5,6 +5,7 @@ public class Director {
     private BanLiPaiGuSoupBuilder banLiPaiGuSoupBuilder = new BanLiPaiGuSoupBuilder();
     /**
      * 熬制冬瓜排骨汤
+     * @return DongGuaPaiGuSoup
      */
     public DongGuaPaiGuSoup buildDongGuaPaiGuSoup() {
         dongGuaPaiGuSoupBuilder.buildSoup();
@@ -13,6 +14,7 @@ public class Director {
 
     /**
      * 熬制板栗排骨汤
+     * @return BanLiPaiGuSoup
      */
     public BanLiPaiGuSoup buildBanLiPaiGuSoup() {
         banLiPaiGuSoupBuilder.buildSoup();
