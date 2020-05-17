@@ -20,7 +20,7 @@ public class Demo {
         Car car = builder.getResult();
         System.out.println("Car built:\n" + car.getType());
 
-
+        System.out.println("=================================");
         CarManualBuilder manualBuilder = new CarManualBuilder();
 
         // Director may know several building recipes.
