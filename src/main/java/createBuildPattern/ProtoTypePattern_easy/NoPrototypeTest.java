@@ -2,7 +2,7 @@ package createBuildPattern.ProtoTypePattern_easy;
 
 public class NoPrototypeTest {
     public static void main(String[] args) {
-        for (int i = 1; i <= 10; i ++) {
+        for (int i = 1; i <= 10; i++) {
             Book book = new Book("娱乐至死", "尼尔波兹曼", "社会科学", "XXXX");
             System.out.println("复印书籍：" + book.getName() + "，第 " + i + " 本");
         }
@@ -12,10 +12,12 @@ public class NoPrototypeTest {
 
 class Book {
     private String name;
+
     private String author;
     private String type;
     private String content;
-    public Book(String name, String author, String type, String content) {
+
+    Book(String name, String author, String type, String content) {
         this.name = name;
         this.author = author;
         this.type = type;

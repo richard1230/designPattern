@@ -4,7 +4,7 @@ public class PrototypeTest {
     public static void main(String[] args) {
         Book2 book1 = new ConcreteBook("娱乐至死", "尼尔波兹曼", "社会科学", "XXXX");
         System.out.println("复印书籍：" + book1.getName() + "，第 " + 1 + " 本");
-        for (int i = 2; i <= 10; i ++) {
+        for (int i = 2; i <= 10; i++) {
             Book2 book2 = (Book2) book1.clone();
             System.out.println("复印书籍：" + book2.getName() + "，第 " + i + " 本");
         }
@@ -23,7 +23,8 @@ abstract class Book2 implements Cloneable {
     private String author;
     private String type;
     private String content;
-    public Book2(String name, String author, String type, String content) {
+
+    Book2(String name, String author, String type, String content) {
         this.name = name;
         this.author = author;
         this.type = type;
@@ -31,7 +32,7 @@ abstract class Book2 implements Cloneable {
         System.out.println("实例化书籍：" + this.name);
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
@@ -76,7 +77,7 @@ abstract class Book2 implements Cloneable {
 
 class ConcreteBook extends Book2 {
 
-    public ConcreteBook(String name, String author, String type, String content) {
+    ConcreteBook(String name, String author, String type, String content) {
         super(name, author, type, content);
     }
 }
