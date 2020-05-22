@@ -4,6 +4,7 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
+// 享元工厂决定是否复用已有享元或者创建一个新的对象。
 public class TreeFactory {
     static Map<String, TreeType> treeTypes = new HashMap<>();
 
