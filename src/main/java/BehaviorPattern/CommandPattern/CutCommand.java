@@ -6,6 +6,8 @@ public class CutCommand extends Command {
         super(editor);
     }
 
+    // 剪切命令改变了编辑器的状态，因此它必须被保存到历史记录中。只要方法
+    // 返回 true，它就会被保存。
     @Override
     public boolean execute() {
         if (editor.textField.getSelectedText().isEmpty()) {

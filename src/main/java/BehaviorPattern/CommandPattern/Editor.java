@@ -5,6 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+// 编辑器类包含实际的文本编辑操作。它会担任接收者的角色：最后所有命令都会
+// 将执行工作委派给编辑器的方法。
 public class Editor {
     public JTextArea textField;
     public String clipboard;
