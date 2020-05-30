@@ -13,6 +13,7 @@ public class Demo {
         System.out.println("2. LinkedIn");
         String choice = scanner.nextLine();
 
+
         SocialNetwork network;
         if (choice.equals("2")) {
             network = new LinkedIn(createTestProfiles());
